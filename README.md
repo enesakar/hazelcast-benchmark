@@ -1,5 +1,5 @@
 # hazelcast-benchmark
-Docker container that run a basic throughput test on hazelcast clusters
+Docker container that runs a basic throughput test on hazelcast clusters
 
 ## How To Use
 	 docker run -e JAVA_OPTS="-Dhazelcast.client.config=/opt/conf/hazelcast-client.xml" -v CONFIG_DIRECTORY:/opt/conf -t enes/hazelcast-benchmark
